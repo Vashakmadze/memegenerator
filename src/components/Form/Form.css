@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+.Form {
+    width: 570px;
+    margin: auto;
+}
+
+.topDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    border-radius: 5px;
+    border: 1px solid #D5D4D8;
+    text-indent: 10px;
+    height: 50px;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.topDiv > :first-child {
+    margin-right: 40px;
+}
+
+input::placeholder {
+    color: black;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; 
+    border-radius: 5px;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+        color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+}
+
+.meme {
+    position: relative;
+    margin-top: 40px;
+
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+.meme--image {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.meme--download {
+    margin-top: 40px;
+}
