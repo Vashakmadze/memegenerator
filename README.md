@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Visit the project here - https://vashakmadze.github.io/memegenerator/
+Random meme generator application created using React. The application functions based on React Hooks, React Forms, Random Meme API and htmlcanvas Library. See the website here - https://vashakmadze.github.io/memegenerator/.
 
 ## Available Scripts
 
